@@ -1,9 +1,52 @@
-h1,
-p {
-  font-family: Lato;
+body {
+  padding: 50px;
+}
+#root {
+  display: flex;
+  justify-content: flex;
+}
+.todoList {
+  margin: 0 auto;
+  background-color: yellow;
+  padding: 20px;
+  width: 400px;
+}
+.todoList h1 {
+  text-align: center;
+}
+.todoList .inputBox {
+ text-align: center;
+}
+.todoList .inputBox input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ffff;
+  width: 165px;
 }
 
-p {
-  background-color: red;
-  display: inline-block;
+.todoList .inputBox button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: antiquewhite;
+}
+.todoList .inputBox button:hover {
+  background-color: grey;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.todoList .theList li {
+  color: green;
+  background-color: yellow;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 2px solid yellowgreen;
+  list-style: none;
+}
+
+.theList {
+  padding: 0px;
 }
