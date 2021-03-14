@@ -1,0 +1,9 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+p {
+  background-color: red;
+  display: inline-block;
+}
